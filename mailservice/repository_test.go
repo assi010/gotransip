@@ -3,9 +3,9 @@ package mailservice
 import (
 	"testing"
 
+	"github.com/assi010/gotransip/v6/internal/testutil"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"github.com/transip/gotransip/v6/internal/testutil"
 )
 
 func TestRepository_AddDNSEntriesDomains(t *testing.T) {

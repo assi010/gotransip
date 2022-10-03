@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/transip/gotransip/v6"
-	"github.com/transip/gotransip/v6/action"
-	"github.com/transip/gotransip/v6/vps"
+	"github.com/assi010/gotransip/v6"
+	"github.com/assi010/gotransip/v6/action"
+	"github.com/assi010/gotransip/v6/vps"
 )
 
 func main() {

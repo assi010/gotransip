@@ -3,8 +3,8 @@ package openstack
 import (
 	"fmt"
 
-	"github.com/transip/gotransip/v6/repository"
-	"github.com/transip/gotransip/v6/rest"
+	"github.com/assi010/gotransip/v6/repository"
+	"github.com/assi010/gotransip/v6/rest"
 )
 
 // UserRepository lists and manages OpenStack users. It can also add and remove users

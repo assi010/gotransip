@@ -13,11 +13,11 @@ import (
 	"testing/iotest"
 	"time"
 
+	"github.com/assi010/gotransip/v6/authenticator"
+	"github.com/assi010/gotransip/v6/repository"
+	"github.com/assi010/gotransip/v6/rest"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"github.com/transip/gotransip/v6/authenticator"
-	"github.com/transip/gotransip/v6/repository"
-	"github.com/transip/gotransip/v6/rest"
 )
 
 func TestNewClient(t *testing.T) {

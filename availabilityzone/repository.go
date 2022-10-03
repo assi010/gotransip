@@ -1,8 +1,8 @@
 package availabilityzone
 
 import (
-	"github.com/transip/gotransip/v6/repository"
-	"github.com/transip/gotransip/v6/rest"
+	"github.com/assi010/gotransip/v6/repository"
+	"github.com/assi010/gotransip/v6/rest"
 )
 
 // Repository should be used to query the AvailabilityZones you want to order in

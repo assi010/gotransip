@@ -2,8 +2,8 @@ package traffic
 
 import (
 	"fmt"
-	"github.com/transip/gotransip/v6/repository"
-	"github.com/transip/gotransip/v6/rest"
+	"github.com/assi010/gotransip/v6/repository"
+	"github.com/assi010/gotransip/v6/rest"
 )
 
 // Repository allows you to get information about your usage in your traffic pool

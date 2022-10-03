@@ -5,11 +5,11 @@ import (
 	"io"
 	"testing"
 
+	"github.com/assi010/gotransip/v6"
+	"github.com/assi010/gotransip/v6/internal/testutil"
+	"github.com/assi010/gotransip/v6/rest"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"github.com/transip/gotransip/v6"
-	"github.com/transip/gotransip/v6/internal/testutil"
-	"github.com/transip/gotransip/v6/rest"
 )
 
 const (

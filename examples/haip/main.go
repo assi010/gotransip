@@ -2,8 +2,8 @@ package main
 
 import (
 	"fmt"
-	"github.com/transip/gotransip/v6"
-	"github.com/transip/gotransip/v6/haip"
+	"github.com/assi010/gotransip/v6"
+	"github.com/assi010/gotransip/v6/haip"
 	"log"
 )
 

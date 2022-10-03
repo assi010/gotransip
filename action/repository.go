@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/transip/gotransip/v6/repository"
-	"github.com/transip/gotransip/v6/rest"
+	"github.com/assi010/gotransip/v6/repository"
+	"github.com/assi010/gotransip/v6/rest"
 )
 
 // Return error if action uuid was not found

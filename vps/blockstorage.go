@@ -5,9 +5,9 @@ import (
 	"net/url"
 	"time"
 
-	"github.com/transip/gotransip/v6"
-	"github.com/transip/gotransip/v6/repository"
-	"github.com/transip/gotransip/v6/rest"
+	"github.com/assi010/gotransip/v6"
+	"github.com/assi010/gotransip/v6/repository"
+	"github.com/assi010/gotransip/v6/rest"
 )
 
 // BlockStorageRepository allows you to manage all api actions on a blockstorage

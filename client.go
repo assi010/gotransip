@@ -7,10 +7,10 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/transip/gotransip/v6/authenticator"
-	"github.com/transip/gotransip/v6/jwt"
-	"github.com/transip/gotransip/v6/repository"
-	"github.com/transip/gotransip/v6/rest"
+	"github.com/assi010/gotransip/v6/authenticator"
+	"github.com/assi010/gotransip/v6/jwt"
+	"github.com/assi010/gotransip/v6/repository"
+	"github.com/assi010/gotransip/v6/rest"
 )
 
 // client manages communication with the TransIP API

@@ -3,7 +3,7 @@ package kubernetes
 import (
 	"net"
 
-	"github.com/transip/gotransip/v6/rest"
+	"github.com/assi010/gotransip/v6/rest"
 )
 
 // lbsWrapper struct contains a list of LoadBalancers in it,

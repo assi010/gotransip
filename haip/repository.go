@@ -5,9 +5,9 @@ import (
 	"net"
 	"net/url"
 
-	"github.com/transip/gotransip/v6"
-	"github.com/transip/gotransip/v6/repository"
-	"github.com/transip/gotransip/v6/rest"
+	"github.com/assi010/gotransip/v6"
+	"github.com/assi010/gotransip/v6/repository"
+	"github.com/assi010/gotransip/v6/rest"
 )
 
 // Repository can be used to get a list of your Haips

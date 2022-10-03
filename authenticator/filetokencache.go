@@ -7,7 +7,7 @@ import (
 	"os"
 	"sync"
 
-	"github.com/transip/gotransip/v6/jwt"
+	"github.com/assi010/gotransip/v6/jwt"
 )
 
 // cacheItem is one named item inside the filesystem cache
