@@ -1,7 +1,7 @@
 package kubernetes
 
 import (
-	"github.com/transip/gotransip/v6/rest"
+	"github.com/assi010/gotransip/v6/rest"
 )
 
 // Release is a Kubernetes release version

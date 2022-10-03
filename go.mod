@@ -1,4 +1,4 @@
-module github.com/transip/gotransip/v6
+module github.com/assi010/gotransip/v6
 
 go 1.20
 

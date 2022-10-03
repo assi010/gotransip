@@ -6,11 +6,11 @@ import (
 	"testing"
 	"time"
 
+	"github.com/assi010/gotransip/v6/internal/testutil"
+	"github.com/assi010/gotransip/v6/rest"
+	"github.com/assi010/gotransip/v6/vps"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"github.com/transip/gotransip/v6/internal/testutil"
-	"github.com/transip/gotransip/v6/rest"
-	"github.com/transip/gotransip/v6/vps"
 )
 
 // To be compatible with < Go 1.20

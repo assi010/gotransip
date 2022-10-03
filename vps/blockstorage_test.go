@@ -6,10 +6,10 @@ import (
 	"testing"
 	"time"
 
+	"github.com/assi010/gotransip/v6"
+	"github.com/assi010/gotransip/v6/internal/testutil"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"github.com/transip/gotransip/v6"
-	"github.com/transip/gotransip/v6/internal/testutil"
 )
 
 func TestBlockStorageRepository_GetBlockStorages(t *testing.T) {

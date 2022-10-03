@@ -1,8 +1,8 @@
 package mailservice
 
 import (
-	"github.com/transip/gotransip/v6/repository"
-	"github.com/transip/gotransip/v6/rest"
+	"github.com/assi010/gotransip/v6/repository"
+	"github.com/assi010/gotransip/v6/rest"
 )
 
 // Repository allows you to retrieve information about your mail-service account,

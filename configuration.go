@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/transip/gotransip/v6/authenticator"
+	"github.com/assi010/gotransip/v6/authenticator"
 )
 
 const (

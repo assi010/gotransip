@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/transip/gotransip/v6"
-	"github.com/transip/gotransip/v6/kubernetes"
+	"github.com/assi010/gotransip/v6"
+	"github.com/assi010/gotransip/v6/kubernetes"
 )
 
 func main() {

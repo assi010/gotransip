@@ -6,8 +6,8 @@ import (
 	"net/mail"
 	"strings"
 
-	"github.com/transip/gotransip/v6/repository"
-	"github.com/transip/gotransip/v6/rest"
+	"github.com/assi010/gotransip/v6/repository"
+	"github.com/assi010/gotransip/v6/rest"
 )
 
 // Repository for creating and modifying mailboxes, mail forwards and mail lists

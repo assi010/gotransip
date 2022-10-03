@@ -1,6 +1,6 @@
 package kubernetes
 
-import "github.com/transip/gotransip/v6/vps"
+import "github.com/assi010/gotransip/v6/vps"
 
 // clustersWrapper struct contains a list of Clusters in it,
 // this is solely used for unmarshalling/marshalling

@@ -1,9 +1,9 @@
 package main
 
 import (
-	"github.com/transip/gotransip/v6"
-	"github.com/transip/gotransip/v6/authenticator"
-	"github.com/transip/gotransip/v6/test"
+	"github.com/assi010/gotransip/v6"
+	"github.com/assi010/gotransip/v6/authenticator"
+	"github.com/assi010/gotransip/v6/test"
 	"log"
 )
 

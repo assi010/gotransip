@@ -1,7 +1,7 @@
 package invoice
 
 import (
-	"github.com/transip/gotransip/v6/rest"
+	"github.com/assi010/gotransip/v6/rest"
 )
 
 // Status is one of the following strings

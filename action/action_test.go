@@ -4,10 +4,10 @@ import (
 	"encoding/json"
 	"testing"
 
+	"github.com/assi010/gotransip/v6/internal/testutil"
+	"github.com/assi010/gotransip/v6/rest"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"github.com/transip/gotransip/v6/internal/testutil"
-	"github.com/transip/gotransip/v6/rest"
 )
 
 func TestActionRepository_GetActions(t *testing.T) {

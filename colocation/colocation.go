@@ -1,7 +1,7 @@
 package colocation
 
 import (
-	"github.com/transip/gotransip/v6/ipaddress"
+	"github.com/assi010/gotransip/v6/ipaddress"
 	"net"
 )
 
