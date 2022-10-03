@@ -2,11 +2,11 @@ package vps
 
 import (
 	"fmt"
-	"github.com/transip/gotransip/v6"
-	"github.com/transip/gotransip/v6/ipaddress"
-	"github.com/transip/gotransip/v6/product"
-	"github.com/transip/gotransip/v6/repository"
-	"github.com/transip/gotransip/v6/rest"
+	"github.com/assi010/gotransip/v6"
+	"github.com/assi010/gotransip/v6/ipaddress"
+	"github.com/assi010/gotransip/v6/product"
+	"github.com/assi010/gotransip/v6/repository"
+	"github.com/assi010/gotransip/v6/rest"
 	"net"
 	"net/url"
 	"strings"

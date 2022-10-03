@@ -1,7 +1,7 @@
 package sshkey
 
 import (
-	"github.com/transip/gotransip/v6/rest"
+	"github.com/assi010/gotransip/v6/rest"
 )
 
 // addSSHKeyRequest is used to marshal to a request that adds an SSH key

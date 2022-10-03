@@ -2,8 +2,8 @@ package test
 
 import (
 	"errors"
-	"github.com/transip/gotransip/v6/repository"
-	"github.com/transip/gotransip/v6/rest"
+	"github.com/assi010/gotransip/v6/repository"
+	"github.com/assi010/gotransip/v6/rest"
 )
 
 // Repository can be used to test the api,

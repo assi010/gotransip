@@ -3,7 +3,7 @@ package authenticator
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/transip/gotransip/v6/jwt"
+	"github.com/assi010/gotransip/v6/jwt"
 	"io/ioutil"
 	"os"
 	"sync"

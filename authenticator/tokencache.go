@@ -1,6 +1,6 @@
 package authenticator
 
-import "github.com/transip/gotransip/v6/jwt"
+import "github.com/assi010/gotransip/v6/jwt"
 
 // TokenCache asks for two methods,
 // one to save a token by a name

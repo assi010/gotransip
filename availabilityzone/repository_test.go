@@ -1,10 +1,10 @@
 package availabilityzone
 
 import (
+	"github.com/assi010/gotransip/v6"
+	"github.com/assi010/gotransip/v6/rest"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"github.com/transip/gotransip/v6"
-	"github.com/transip/gotransip/v6/rest"
 	"net/http"
 	"net/http/httptest"
 	"testing"

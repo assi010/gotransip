@@ -3,9 +3,9 @@ package gotransip
 import (
 	"bytes"
 	"errors"
-	"github.com/transip/gotransip/v6/authenticator"
-	"github.com/transip/gotransip/v6/repository"
-	"github.com/transip/gotransip/v6/rest"
+	"github.com/assi010/gotransip/v6/authenticator"
+	"github.com/assi010/gotransip/v6/repository"
+	"github.com/assi010/gotransip/v6/rest"
 	"io/ioutil"
 	"net/http"
 	"net/http/httptest"

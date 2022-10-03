@@ -1,10 +1,10 @@
 package sshkey
 
 import (
+	"github.com/assi010/gotransip/v6"
+	"github.com/assi010/gotransip/v6/repository"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"github.com/transip/gotransip/v6"
-	"github.com/transip/gotransip/v6/repository"
 	"io/ioutil"
 	"net/http"
 	"net/http/httptest"

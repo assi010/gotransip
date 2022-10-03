@@ -1,7 +1,7 @@
 package traffic
 
 import (
-	"github.com/transip/gotransip/v6/rest"
+	"github.com/assi010/gotransip/v6/rest"
 )
 
 // this struct will be used to unmarshal it only contains a Information struct in it

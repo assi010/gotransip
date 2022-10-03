@@ -6,10 +6,10 @@ import (
 	"net/http/httptest"
 	"testing"
 
+	"github.com/assi010/gotransip/v6"
+	"github.com/assi010/gotransip/v6/repository"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"github.com/transip/gotransip/v6"
-	"github.com/transip/gotransip/v6/repository"
 )
 
 // mockServer struct is used to test the how the client sends a request
