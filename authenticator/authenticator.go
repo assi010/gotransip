@@ -153,7 +153,12 @@ func (a *Authenticator) requestNewToken() (jwt.Token, error) {
 	if err != nil {
 		return jwt.Token{}, fmt.Errorf("error marshalling token request: %w", err)
 	}
-	signature, err := a.sign(bodyToSign)
+	var signature string
+	if a.KeyManager != nil {
+		signature, err = signExternally(bodyToSign, a.KeyManager)
+	} else {
+		signature, err = signWithKey(bodyToSign, a.PrivateKeyBody)
+	}
 	if err != nil {
 		return jwt.Token{}, err
 	}
@@ -185,16 +190,6 @@ func (a *Authenticator) requestNewToken() (jwt.Token, error) {
 	}
 
 	return jwt.New(tokenToReturn.Token)
-}
-
-// sign a new Token request body using either a provided KeyManager or a private key,
-// in case no KeyManager is provided it will fall back to using the private key
-func (a *Authenticator) sign(body []byte) (string, error) {
-	if a.KeyManager != nil {
-		return a.KeyManager.SignExternally(body)
-	}
-
-	return signWithKey(body, a.PrivateKeyBody)
 }
 
 // tokenResponse is used to extract a Token from the api server response

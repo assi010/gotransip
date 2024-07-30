@@ -19,7 +19,16 @@ var (
 
 // A KeyManager can be used to offload the signing of a new Token request to a third party
 type KeyManager interface {
-	SignExternally(body []byte) (string, error)
+	Sign(body []byte) (string, error)
+}
+
+// sign a new Token request body using the provided ExternalVault
+func signExternally(body []byte, manager KeyManager) (string, error) {
+	if manager == nil {
+		return "", errors.New("no key vault is available")
+	}
+
+	return manager.Sign(body)
 }
 
 func signWithKey(body []byte, key []byte) (string, error) {
